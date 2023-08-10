@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>iramec metas</title>
+</head>
+<body>
+    <header>
+        
+
+    </header>
+    <section>
+        <div>
+            <h1>Iramec</h1>
+
+        </div>
+        <div class="divoption">
+            
+            <label for="">Escola opção abaixo :</label><br><br>
+            <select id="select">
+            <option value=""></option>
+            <option value="mqbt" id="mqbt" >MQB TRASEIRO</option>
+            <option value="mqbd" id="mqbd" >MQB DIANTEIRO</option>
+            <option value="f3"   id="F3"   >F3</option>
+            <option value="smart" id="smart"          >SMART</option>
+            <option value="x52"   id="X52"          >X52</option>
+            </select>
+               <br><br>
+            <label>Operadores:</label><br><br>
+            <input type="number" name="" id="cxop" min="1" max="9"><br><br><br>
+            <label for="">Tempo parada em minutos :</label><br><br>
+            <input type="number" name="" id="cxtempo"><br><br><br>
+            <input type="button" value="Calcular" id="button" onclick="calcular()">
+        </div>
+        
+        <div id="res"> 
+            <p>Metas : </p>
+            
+        </div>
+
+
+    </section>
+    <footer>
+        <p class="copy">&copy; Fabiano Sobral</p>
+    </footer> 
+    <script src="scriptt.js"></script>  
+</body>
+</html>
